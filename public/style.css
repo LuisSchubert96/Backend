@@ -1,0 +1,50 @@
+/*Resetando margens e paddir*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Estilo do corpo da página */
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hwb(240 22% 20%);
+}
+/* estilo do container */
+.container{
+    background-color: rgb(199, 20, 20);
+    border-radius: 10px; /* bordas arredondadas */
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1); /* Sombra suave */
+    padding: 40px; /* preenchimento */
+    text-align: center;
+    width: 80%;
+    max-width: 800px; /* largura máxima do container */
+}
+/* estilo do título */
+h1{
+    font-size: 2.2rem;
+    color: aliceblue;
+    margin-bottom: 30px;
+}
+p{
+    font-size: 1.2rem;
+    color: beige;
+    margin-bottom: 30px;
+}
+/* estilo do botão */
+button{
+    padding: 12px 25 px;
+    background-color: darkred;
+    color: black;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+/*efeito hover no botão*/
+button:hover{
+    background-color: antiquewhite;
+}
